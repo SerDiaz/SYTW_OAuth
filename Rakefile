@@ -5,7 +5,7 @@ end
 
 desc "Save config.yml out of the CVS"
 task :keep_secrets do
-  sh "cp config/config_template.yml config/config.yml "
+  sh "cp config/config.yml config/config.yml "
 end
 
 desc "Use the filled client_secrets"
